@@ -1,0 +1,226 @@
+/*
+Theme Name: Phi Shop
+Author: Pixel2Go
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Phi Shop
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*** MY CSS ***/
+
+/*** LOGIN PAGE ***/
+.login_wrap {
+  height: 100vh;
+  width: 460px;
+  background: #1c1c1c;
+  float: left;
+}
+.login_picture_wrap {
+  height: 100vh;
+  width: calc(100% - 460px);
+  float: right;
+  overflow: hidden;
+  position: relative;
+}
+.login_picture_wrap img {
+  max-height: 100%;
+  min-width: 100%;
+}
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #1c1c1c61;
+}
+.input_wrap {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.input_wrap .input-field label {
+  color: #e9d5a9 !important;
+}
+.input_wrap .input-field input {
+  border-bottom: 1px solid #e9d5a9 !important;
+  color: #b6b7b7;
+}
+.welcome_holder {
+  height: 45%;
+}
+.welcome_wrap {
+  margin-left: auto;
+  margin-right: auto;
+}
+.welcome_wrap img {
+  height: 140px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 25px;
+}
+.welcome_wrap h3 {
+  margin: 0;
+  color: #ecd7aa;
+  margin-top: 25px;
+}
+.input_wrap button {
+  background: #ecd7aa;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 40px;
+}
+.input_wrap button:hover {
+  background: #ecd7aa;
+}
+@media only screen and (max-width:990px){
+  .login_picture_wrap {
+    display: none;
+  }
+  .login_wrap {
+    width: 100vw;
+  }
+}
+
+/*** User Dashboard ***/
+/*** Sidenav ***/
+.sidenav_item a {
+  color: inherit !important;
+  padding: 0 !important;
+}
+nav.side {
+  width: 200px;
+  float: left;
+  height: 100vh;
+  background: #1c1c1c;
+}
+.logo_holder {
+  height: 20%;
+}
+.logo_holder img {
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.dashboard_icon {
+  display: inline;
+  height: fit-content;
+  font-size: 16px;
+  padding-right: 10px;
+}
+.sidenav_item h6 {
+  margin: 0;
+}
+.sidenav_item {
+  width: 100%;
+  padding: 10px 10px 10px 35px;
+  color: #ecd7aa;
+  border-bottom: 1px solid #595959;
+}
+.sidenav_item:first-child {
+  border-top: 1px solid #595959;
+}
+/*** Top Nav ***/
+.user_nav h6 {
+  width: 80%;
+  float: left;
+  margin: 0;
+  line-height: 50px;
+  text-align: left;
+  padding-left: 30px;
+}
+a.user_log {
+  float: right;
+  height: 100%;
+  line-height: 50px;
+  width: 13%;
+  box-shadow: none;
+  background: #1c1c1c;
+  color: #edd8aa;
+}
+a.user_log:hover, a.user_log:focus, a.user_log:active  {
+  background: #1c1c1ce0;
+  box-shadow: none;
+}
+ul.user_log_dropdown {
+  background: #f2f2f2;
+  top: -50px;
+}
+.user_log_dropdown.dropdown-content>li a {
+  color: #1c1c1c;
+}
+/*** Content ***/
+div.content_side {
+  height: 100vh;
+  width: calc(100% - 200px);
+  float: right;
+}
+.user_nav {
+  height: 50px;
+  background: #f2f2f2;
+}
+.table.wrap h4 {
+  margin: 0 0 25px 0;
+  padding: 0 0 15px 0;
+  border-bottom: 2px solid #e4e4e4;
+}
+.table.wrap {
+  padding: 50px;
+}
+/*** Credit Page ***/
+div.buy_credit_wrap {
+  height: 250px;
+  margin: 50px;
+  background: #f2f2f2;
+  border-radius: 3px;
+}
+.buy_credit_wrap div.col {
+  height: 100%;
+}
+.buy_credit_wrap div.m5 {
+  border-right: 2px solid #1c1c1c;
+}
+.credit_info_holder {
+  width: 100%;
+}
+.credit_info_holder h5, .credit_info_holder h4 {
+  text-align: center;
+}
+.credit_info_holder h5 {
+  margin-top: 0;
+}
+.credit_buy_holder {
+  padding: 20px 30px;
+}
+.credit_buy_holder h6 {
+  font-size: 19px;
+  text-align: center;
+}
+a.buy_btn.btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  display: block;
+  width: 50%;
+  height: 50px;
+  background: #edd8aa;
+  color: #1c1c1c;
+  line-height: 50px;
+  font-size: 20px;
+}
+.buy_btn i {
+  padding: 0 10px;
+  font-size: 20px;
+}
+.credit_table_wrap {
+  height: calc(100% - 400px);
+  padding: 0 50px;
+}
+.credit_table_wrap h4 {
+margin-top: 0;
+}
